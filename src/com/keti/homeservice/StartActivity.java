@@ -28,6 +28,8 @@ import android.widget.TabHost;
 
 @SuppressWarnings({ "deprecation" })
 public class StartActivity extends TabActivity {
+	public static final String GIT_TEST_CODE = "GIT_TEST_CODE";
+	
 	private static final String TAG = "StartActivity";
 	
 	private Intent scoketService;
