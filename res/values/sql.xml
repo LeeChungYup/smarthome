@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_homeappliance">
+        CREATE TABLE IF NOT EXISTS homeappliance (
+        	serialNumber VARCHAR(40) PRIMARY KEY,
+        	deviceType VARCHAR(40) NOT NULL,
+        	modelName VARCHAR(40),
+        	controlType VARCHAR(40),
+        	size VARCHAR(40),
+        	weight VARCHAR(40),
+        	power VARCHAR(40),
+        	manufacturer VARCHAR(40),
+        	regTime VARCHAR(40)
+        );
+    </string>
+
+    <string name="create_srv">
+        CREATE TABLE IF NOT EXISTS service (
+        	serviceId INT PRIMARY KEY,
+        	serviceName VARCHAR(20),
+        	serviceVersion VARCHAR(10),
+        	serviceInfo TEXT,
+        	category VARCHAR(20),
+        	requisiteDevices TEXT,
+        	regTime VARCHAR(30)
+        );
+    </string>
+    
+    <string name="create_phone">
+        CREATE TABLE IF NOT EXISTS phone (
+        	address TEXT,
+        	time VARCHAR(30),
+        	state TEXT,
+        	callState VARCHAR(10),
+        	latitude DOUBLE,
+        	longitude DOUBLE
+        );
+    </string>
+
+    
+    <string name="delete_homeappliance">
+        DELETE FROM homeappliance;
+    </string>
+    
+    <string name="delete_srv">
+        DELETE FROM service;
+    </string>
+    
+    <string name="delete_phone">
+        DELETE FROM phone;
+    </string>
+    
+    <string name="insert_homeappliance">
+        INSERT INTO 
+      		homeappliance 
+        VALUES(
+        	#serialnumber#, 
+        	#devicetype#, 
+        	#modelname#, 
+        	#controltype#,
+        	#size#,
+        	#weight#,
+        	#power#,
+        	#manufacturer#,
+        	#regtime#
+        );
+    </string>
+    
+    <string name="insert_srv">
+        INSERT INTO service VALUES(
+        	#serviceid#, 
+        	#servicename#, 
+        	#serviceversion#, 
+        	#serviceinfo#, 
+        	#category#,
+        	#requisitedevices#,
+        	#regtime#
+        );
+    </string>
+
+    <string name="insert_phone">
+        INSERT INTO phone VALUES(
+        	#address#,
+        	#time#,
+        	#state#,
+        	#callstate#,
+        	#latitude#,
+        	#longitude#
+        );
+    </string>
+    
+    <string name="select_homeappliance">
+        SELECT * FROM homeappliance;
+    </string>
+    
+    <string name="select_srv">
+        SELECT * FROM service;
+    </string>
+    
+    <string name="select_phone">
+        SELECT * FROM phone;
+    </string>
+    
+</resources>

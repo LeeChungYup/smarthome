@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- title -->
+    <string name="home">홈</string>
+    <string name="dev_ctr">가전 제어</string>
+    <string name="srv_mng">서비스 관리</string>
+    <string name="setting">설정</string>
+    <string name="on_srv">- 진행 서비스 -</string>
+    <string name="inner_env">- 실내 환경 -</string>
+    <string name="home_msg">- 홈 서버 메시지 -</string>
+    <string name="title_add_user">- 사용자 추가 -</string>
+    <string name="title_add_dev">- 가전기기 추가 -</string>
+    <string name="title_add_srv">- 신규 서비스 추가 -</string>
+
+    <!-- contents -->
+    <string name="ct_user_info">사용자 정보 표시</string>
+    <string name="ct_dev_info">가전기기 정보 표시</string>
+    <string name="ct_srv_info">신규 서비스 정보 표시</string>
+    
+    <!-- service -->
+    <string name="srv_out_mode">외출모드</string>
+    <string name="srv_inner_temp_ctr">실내온도제어</string>
+    <string name="srv_clean_mode">청소모드</string>
+    <string name="srv_in_mode">귀가모드</string>
+    <string name="srv_aircleaner">공기청정기 가동</string>
+    <string name="srv_aircon">에어컨 가동</string>
+    <string name="srv_dehumidifier">제습기 가동</string>
+    <string name="srv_humidifier">가습기 가동</string>
+    
+    
+    <!-- category -->
+    <string name="ctg_sercurity">보안</string>
+    <string name="ctg_environment">환경</string>
+
+    <!-- inner environment message -->
+    <string name="current_tmp_hum">온도: %1$.02f°C\n습도: %2$.02f%%</string>
+
+    <!-- home server message -->
+    <string name="turunon_tv">티비가 켜졌습니다.</string>
+    <string name="turunoff_tv">티비가 꺼졌습니다.</string>
+    <string name="turunon_lamp">전등이 켜졌습니다.</string>
+    <string name="turunoff_lamp">전등이 꺼졌습니다.</string>
+    <string name="turunon_hum">가습기가 켜졌습니다.</string>
+    <string name="turunoff_hum">가습기가 꺼졌습니다.</string>
+    <string name="turunon_fan">선풍기가 켜졌습니다.</string>
+    <string name="turunoff_fan">선풍기가 꺼졌습니다.</string>
+    <string name="turunon_ac">에어컨이 켜졌습니다.</string>
+    <string name="turunoff_ac">에어컨이 꺼졌습니다.</string>
+    <string name="turunon_warmer">온열기가 켜졌습니다.</string>
+    <string name="turunoff_warmer">온열기가 꺼졌습니다.</string>
+    <string name="change_tmp_hum">현재 온도는 %1$.02f°C, 습도는 %2$.02f%%입니다.</string>
+    <string name="run_service">%1$s가 실행되었습니다.</string>
+    <string name="stop_service">%1$s가 중지되었습니다.</string>
+    
+    <!-- service management toast message -->
+    <string name="short_of_dev">장치가 부족하여 현재 서비스를 이용할 수 없습니다.</string>
+    <string name="install_already_srv">이미 설치된 서비스입니다.</string>
+    <string name="install_srv">서비스를 설치하였습니다.</string>
+    <string name="suc_delete_srv">서비스를 삭제하였습니다.</string>
+
+    <!-- bottom information -->
+    <string name="in_temp">실내 온도: </string>
+    <string name="in_hum">실내 습도: </string>
+    <string name="degree">°C</string>
+    <string name="percentage">%</string>
+    <string name="tem_humd">실내 온도: %1$.02f°C\n실내 습도: %2$.02f%%</string>
+
+    <!-- setting message -->
+    <string name="no_service">현재 지원되지 않는 서비스입니다.</string>
+
+    <string name="intro_msg">"스마트홈을 실행중 입니다. 잠시만 기다려 주십시오."</string>
+    <string name="unknown">unknown</string>
+    
+</resources>
